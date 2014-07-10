@@ -1,3 +1,9 @@
+//app.js
+//This program calculates how much you will need to spend on gas and how many
+//times you will need to stop in order to fill up your tank.  It uses the prompt
+//engine and if statements.
+//
+//Z. Ames 7/9/14
 
 var prompt = require('sync-prompt').prompt;
 var vehicle = prompt('Are you driving a truck or a car? ');
