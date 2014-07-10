@@ -51,5 +51,5 @@ console.log('You are going to drive a total of '+distance +' miles.');
 console.log('Your actual mpg is ' +actualMpg);
 console.log('You will use a total of '+totGal.toFixed(2)+' gallons of gas.');
 console.log('This trip will cost you '+totCost.toFixed(2)+' dollars.');
-console.log('You will need to stop '+stops.toFixed(0) +' times for gas.');
+console.log('You will need to stop '+Math.ceil(stops) +' times for gas.');
 
